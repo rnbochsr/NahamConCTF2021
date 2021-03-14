@@ -11,23 +11,23 @@ Connect here: `link`
 Read The Rules 
 
 View page source for the flag
-<!-- Thank you for reading the rules! Your flag is: -->
-<!--   flag{90bc54705794a62015369fd8e86e557b}       -->
+Thank you for reading the rules! Your flag is: 
+`flag{90bc54705794a62015369fd8e86e557b}`
 
 
 ### The Mission
 View page source for flag.
-<!-- Thank you for reading the rules! Your flag is: -->
-<!--   flag{48e117a1464c3202714dc9a350533a59}       -->
+Thank you for reading the rules! Your flag is:
+`flag{48e117a1464c3202714dc9a350533a59}`  
 
 
 ### easb64
 Author: @JohnHammond#6971
 Was it a car or a cat I saw?
 Download the file below.
-Attachments: esab64
+Attachments: `esab64`
 
-This is a reverse text decode in `base64`. Use rev or tac to reverse the encoded text. 
+This is a reverse text decode in `base64`. Use `rev` or `tac` to reverse the encoded text. 
 Then decode using `base64 -d`. I did it in pieces first but you can do it in one step:
 `rev esab64 | base64 -d | rev`
 Reversing one last time puts the flag in the proper order. 
@@ -110,7 +110,7 @@ This is a `Dante Cipher`. Need to find the proper encoding.
 
 ### Pollex
 Author: @JohnHammond#6971
-👍
+Image File 👍
 Download the file below.
 Some people seem to have trouble reading this, understandably so. Sorry. The flag ends in these characters: 8fe36bc00}
 Attachments: `pollex`
@@ -153,7 +153,8 @@ Crypto is eaxy, it's all about math and keys :)
 Download the file below.
 Attachments: `eaxy`
 
-Math and keys... Now I just have to figure them out. Could it be as easy as a ROT5 cipher?
+Math and keys... Now I just have to figure them out. 
+Could it be as easy as a ROT5 cipher? No, I tired that.
 
 
 ### DDR
@@ -176,7 +177,7 @@ with 32 bits of randomness. Now you have to guess the upcoming number.
 
 ### Prison Break
 Author: @JohnHammond#6971
-Read the flag.txt file that is /just/out/of/reach.
+Read the `flag.txt` file that is `/just/out/of/reach`.
 Press the Start button on the top-right to begin this challenge. 
 
 This is a priveledge escalation challenge.
