@@ -6,8 +6,8 @@
 
 What follows are my notes and write-ups for the NahamCon CTF 2021. This was my second CTF. I managed a dozen solves and landed in the top 25%. I'm pretty pleased with not only how I did in the ranking, but I also learned some valuable techniques for doing better in future CTFs. 
 
-I'm looking forward to my next one.
-  Bradley
+I'm looking forward to my next one. 
+ -- Bradley
 
 ### Read the Rules
 Author: @JohnHammond#6971
@@ -32,9 +32,7 @@ Was it a car or a cat I saw?
 Download the file below.
 Attachments: `esab64`
 
-This is a reverse text decode in `base64`. Use `rev` or `tac` to reverse the encoded text. 
-Then decode using `base64 -d`. Reversing one last time puts the flag in the proper order.
-I did it in pieces first but you can do it in one step:
+This is a reverse text decode in `base64`. Use `rev` or `tac` to reverse the encoded text. Then decode using `base64 -d`. Reversing one last time puts the flag in the proper order. I did it in pieces first but you can do it in one step:
 `rev esab64 | base64 -d | rev`
 `flag{fb5211b498afe87b1bd0db601117e16e}`
 
@@ -44,9 +42,7 @@ Author: @JohnHammond#6971
 A Vortex? No... an Abyss.
 Click the Start button on the top-right to start this challenge. 
 
-This is a neverending stream of text and junk characters.
-I hit `esc` and held it down to try and break it to no avail. I then tried to 
-copy the text from my terminal into a text editor. Then search for `flag{`.
+This is a neverending stream of text and junk characters. I hit `esc` and held it down to try and break it to no avail. I then tried to copy the text from my terminal into a text editor. Then search for `flag{`.
 That gave me the answer that was buried in the abyss.
 `flag{db758a0cc25523993416c305ef15f9ad}`
 
@@ -64,15 +60,14 @@ Ran strings on the image file and got the flag.
 ### The Villages
 Author: HTB Village
 Come join the party at the HTB Village, and track down a flag!
-All the village challenges were solved the same way. You visit the Discord server
-and the flag is in the server title.
+I solved all the village challenges the same way. You visit the Discord server and the flag is in the server title.
 
-HTB Village `flag{437f3e5ecdd39a29d695e2e31603f5b4}`
-INE Village `flag{e713de181584836c9499811f13cb0e62}`
-IoT Village `flag{1ff473816ef21857cc62f838e8a33fc7}`
-Live Recon Village `flag{2795da9d0d2055d259a3fb4d6b78629c}`
-Red Team Village `flag{fd59547d85953cac9dd5f378daed2157}`
-UHC-BR `flag{120c45c7b99d8cba1567441f5bef599e}`
+* HTB Village `flag{437f3e5ecdd39a29d695e2e31603f5b4}` 
+* INE Village `flag{e713de181584836c9499811f13cb0e62}` 
+* IoT Village `flag{1ff473816ef21857cc62f838e8a33fc7}` 
+* Live Recon Village `flag{2795da9d0d2055d259a3fb4d6b78629c}` 
+* Red Team Village `flag{fd59547d85953cac9dd5f378daed2157}` 
+* UHC-BR `flag{120c45c7b99d8cba1567441f5bef599e}` 
 
 
 ### Merch Store
@@ -80,7 +75,7 @@ Author: @nahamsec#5814
 Check out our Merch Store! A portion of the proceeds go to support Women in CyberSecurity @WiCySorg!
 Perform some online reconnaissance to track down a flag on the merch store! 
 
-View the page source for the flag.
+View the merchandise page's source for the flag. 
 `flag{fafc10617631126361c693a2a3fce5a7}`
 
 
@@ -102,8 +97,7 @@ Attachments: `chicken_wings`
 
 ### $Echo
 Author: @Blacknote#1337
-So I just made a hardcoded bot that basically tells you what you wanna hear. Now usually it's 
-a $ for each thing you want it to say but I'll waive the fee for you if you beta test it for me.
+So I just made a hardcoded bot that basically tells you what you wanna hear. Now usually it's a $ for each thing you want it to say but I'll waive the fee for you if you beta test it for me.
 Press the Start button on the top-right to begin this challenge. 
 
 
@@ -135,14 +129,9 @@ Attachments: `veebee.vbe`
 
 ### Bionic
 Author: @JohnHammond#6971
-Thank you for taking on The Mission. You can begin by exploring the CONSTELLATIONS public website, 
-constellations.page. CONSTELLATIONS has "tried" to reduce their attack surface by offering just a 
-static website. But you might find some low-hanging fruit to get you started. You should find the 
-flag for this challenge ON THIS constellations.page website. 
-With the flag of this challenge, you should also find a new URL that will assist in the next challenge.
-After solving this challenge, you may need to refresh the page to see the newly unlocked challenges. 
+Thank you for taking on The Mission. You can begin by exploring the CONSTELLATIONS public website, constellations.page. CONSTELLATIONS has "tried" to reduce their attack surface by offering just a static website. But you might find some low-hanging fruit to get you started. You should find the flag for this challenge ON THIS constellations.page website. With the flag of this challenge, you should also find a new URL that will assist in the next challenge. After solving this challenge, you may need to refresh the page to see the newly unlocked challenges. 
 
-Searched the page source and found nothing. 
+Searched the page's source and found nothing. 
 Didn't see and hidden links or images on the page. 
 
 
@@ -179,8 +168,7 @@ NOTE: You are welcome to "brute force" this challenge if you feel you need to. ;
 Download the file below and press the Start button on the top-right to begin this challenge.
 Attachments: `dice_roll.py`
 
-You get the Python script. It seeds the dice, how ever many of them there are, 
-with 32 bits of randomness. Now you have to guess the upcoming number. 
+You get the Python script. It seeds the dice, how ever many of them there are, with 32 bits of randomness. Now you have to guess the upcoming number. 
 
 
 ### Prison Break
@@ -193,9 +181,7 @@ This is a priveledge escalation challenge.
 
 ### AgentTester
 Author: @jorgectf#3896
-We've recently hired an entry-level web developer to build an internal system to test User Agents, 
-let us know if you find any errors!
+We've recently hired an entry-level web developer to build an internal system to test User Agents, let us know if you find any errors!
 Download the files below and press the Start button on the top-right to begin this challenge.
 Attachments: `agenttester.zip`
-
 
