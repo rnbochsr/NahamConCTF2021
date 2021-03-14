@@ -7,6 +7,7 @@
 What follows are my notes and write-ups for the NahamCon CTF 2021. This was my second CTF. I managed a dozen solves and landed in the top 25%. I'm pretty pleased with not only how I did in the ranking, but I also learned some valuable techniques for doing better in future CTFs. 
 
 I'm looking forward to my next one.
+  Bradley
 
 ### Read the Rules
 Author: @JohnHammond#6971
