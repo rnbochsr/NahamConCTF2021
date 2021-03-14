@@ -1,10 +1,5 @@
 # NahamCon CTF 2021
 
-
-Hackerone giveaway - but I don't know where to enter the flag.
-flag{WelcomeToHacker101}
-
-
 ### Read the Rules
 Author: @JohnHammond#6971
 Please follow the rules for this CTF!
