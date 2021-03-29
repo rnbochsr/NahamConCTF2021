@@ -8,6 +8,9 @@ What follows are my notes and write-ups for the NahamCon CTF 2021. This was my s
 
 I'm looking forward to my next one. 
  -- Bradley
+ 
+ 
+## Solved Challenges
 
 ### Read the Rules
 Author: @JohnHammond#6971
@@ -79,6 +82,8 @@ View the merchandise page's source for the flag.
 `flag{fafc10617631126361c693a2a3fce5a7}`
 
 
+## Unsolved Challenges
+
 ### Car Keys
 Author: @JohnHammond#6971
 We found this note on someone's key chain! It reads... `ygqa{6y980e0101e8qq361977eqe06508q3rt}`? 
@@ -86,6 +91,22 @@ There was another key that was engraved with the word `QWERTY`, too...
 
 This is a QWERTY cipher. I just need to find the right movement and offset.
 `ygqa` should equal `flag`, but I can't find an encoding that matches that.
+
+As luck would have it, my trusty cipher website simply had trouble with this QWERTY cipher. I'm not certain why, but it did. I was right that, based on the flag format, `ygqa` was `flag`. After the competition I tried a different website and solved for the flag without issue. 
+`flag{6f980c0101c8aa361977cac06508a3de}`
+
+
+### Eight Circle
+Author: @JohnHammond#6971
+Abandon all hope, ye who enter here...
+Download the file below.
+Attachments: `eight_circle`
+
+This is a `Dante Cipher`. Need to find the proper encoding. 
+Update - I saw the challenge title, read the quote, and assumed that the cipher had to do with Dante's Inferno. I focused my OSINT search around those parameters. That yielded a match to the `Dante Cipher`. Perfect. Or so I thought. I couldn't find the proper encoding to decipher the ciphertext. 
+
+As it turns out, the parameters of my search were too specific, so I missed the correct cipher. Searching more broadly for a cipher relating just to `eighth circle cipher` would have proven successful. While the cipher was related to Dante's Inferno, I learned after the competition that an esoteric programming language was named after the Eighth's Circle of hell in Inferno, Malbolge. Using a translator for it yields the flag.
+`flag{bf201f669b8c4adf8b91f09165ec8c5c}`
 
 
 ### Chicken Wings
@@ -99,15 +120,6 @@ Attachments: `chicken_wings`
 Author: @Blacknote#1337
 So I just made a hardcoded bot that basically tells you what you wanna hear. Now usually it's a $ for each thing you want it to say but I'll waive the fee for you if you beta test it for me.
 Press the Start button on the top-right to begin this challenge. 
-
-
-### Eight Circle
-Author: @JohnHammond#6971
-Abandon all hope, ye who enter here...
-Download the file below.
-Attachments: `eight_circle`
-
-This is a `Dante Cipher`. Need to find the proper encoding. 
 
 
 ### Pollex
@@ -132,7 +144,7 @@ Author: @JohnHammond#6971
 Thank you for taking on The Mission. You can begin by exploring the CONSTELLATIONS public website, constellations.page. CONSTELLATIONS has "tried" to reduce their attack surface by offering just a static website. But you might find some low-hanging fruit to get you started. You should find the flag for this challenge ON THIS constellations.page website. With the flag of this challenge, you should also find a new URL that will assist in the next challenge. After solving this challenge, you may need to refresh the page to see the newly unlocked challenges. 
 
 Searched the page's source and found nothing. 
-Didn't see and hidden links or images on the page. 
+Didn't see any hidden links or images on the page. 
 
 
 ### Treasure
